@@ -1,0 +1,8 @@
+#!/bin/bash
+case "$5" in
+        10.10.20.1)
+                /sbin/route add -net 192.168.111 -interface $1
+                ;;
+        *)
+esac
+exit 0
