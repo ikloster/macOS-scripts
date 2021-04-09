@@ -8,3 +8,4 @@ ip-up แบบ selectively route network traffic through VPN
 1. เก็บไว้ใน /etc/ppp/ip-up
 2. must have 0755 permissions
 3. must be owned by root
+4. ปรับแก้ค่า GATEWAY และคำสั่ง route ตามการใช้งาน
